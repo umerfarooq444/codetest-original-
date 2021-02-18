@@ -1,28 +1,9 @@
-Choose ONE of the following tasks.
-Please do not invest more than 2-4 hours on this.
-Upload your results to a Github Gist, for easier sharing and reviewing.
-
-Thank you and good luck!
-
-
-
-Code to refactor
-=================
-1) app/Http/Controllers/BookingController.php
-2) app/Repository/BookingRepository.php
-
-Code to write tests
-=====================
-3) App/Helpers/TeHelper.php method willExpireAt
-4) App/Repository/UserRepository.php, method createOrUpdate
-
-
-----------------------------
-
-What I expect in your repo.
-
-1, A readme with:   Your thoughts about the code. What makes it amazing code. Or what makes it ok code. Or what makes it terrible code. How would you have done it. Thoughts on formatting. Logic.. 
-
-2.  Refactor it if you feel it needs refactoring. The more love you put into it. The easier for us to asses.  
-
-Make two commits. First commit with original code. Second with your refactor so we can easily trace changes. 
+HI,
+Thanks for shorlisting me for code test.
+There are lots of way to write a test driven code but i chosed to reforming task instead of writting a simple test case. your shared code was a big example of rough coding. lots of unecessary code written as well use of if statements. I have fixed some of repetitive code from the controller however, spending some more time can reduce if statements steps can be performed to reform your controllers are
+  1) Single responsibility principle
+  2) Relational data or eager loading
+  3) Don't repeat yourself (DRY)
+  4) Mass assignment
+  5) Comment the code properly to explain it to others
+  6) Namming conventions PSR standerds.
